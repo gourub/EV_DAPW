@@ -1,0 +1,54 @@
+body {
+font-family: Arial;
+background-color:#69ebcd;
+box-sizing: border-box;
+height:100;
+margin:0;
+}
+.container{
+    width:40%;
+    margin:1em auto;
+    padding:1em 5%;
+    /*background:#fff;*/
+}
+.field{
+    border:solid 1px black;
+    padding:10px;
+}
+.field:focus{
+    border-color: #6fe0ff;
+}
+form{
+    border-radius:3px;
+    position:relative;
+    width:300px;
+    color:black;
+    font-size: 11px;
+    margin:0 auto;
+    padding:20px;
+    background-color: white;
+}
+.btn{
+    border-radius: 2px;
+}
+.cover{
+    object-fit: cover;
+}
+.bg-image{
+    background-image:url(Fon.jpg);
+    filter:blur(8px);
+    height:100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#full-screen-background-image
+{
+    z-index:-999;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top:0;
+    left:0;
+}
+

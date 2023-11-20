@@ -1,0 +1,79 @@
+body {
+    font-family: Arial;
+    background-color: #82ecfd;
+    box-sizing: border-box;
+    height:100;
+    margin: 0;
+}
+
+h1, h2 {
+    color: #000000 ;
+    text-align: center;
+}
+
+input, textarea {
+    border: 1px;
+    outline: 1px;
+    width: 280px;
+}
+.field
+{
+    border: solid 1px #0e0e0e;
+    padding: 10px;
+}
+.field:focus{
+    border-color: rgb(59, 95, 255);
+}
+.center-content {
+    text-align: center;
+}
+legend {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+form {
+    border-radius: 3px;
+    position: relative;
+    width: 300px;
+    color:#52a0bf;
+    font-size: 10px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #17697d;
+}
+
+.btn{
+    border-radius: 2px;
+    display: inline-block;
+    padding: 25px;
+    text-decoration: none;
+    text-shadow: 0 1 px 0 rgba (255,255,255,0,3);
+    box-shadow: 0 1 px 1 rgba (0,0,0,0,3);
+}
+
+.btn-green{
+    color: rgb(255, 255, 255);
+    background-color:#66e8c7 ;
+}
+
+.btn-green:hover{
+    background-color: rgb(47, 127, 141);
+}
+.btn-green:active{
+    background-color: aqua;
+}
+.cover{
+    object-fit: cover;
+}
+.bg-image{
+    background-image: url(fondojs.jpg);
+    filter: blur(8px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
